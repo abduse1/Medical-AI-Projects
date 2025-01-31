@@ -1,9 +1,12 @@
+# Patient details
 patient_name = 'Abraham'
 age = 23
-height = 1.76
-weight = 63
+height = 1.76  # in meters
+weight = 63    # in kilograms
+tb_positive = True
+
+# Print patient details
 print(patient_name, age, height, weight)
 
-tb_postive = True
-
-print(f"The patient name is {patient_name} and he is {age} years old and Is he a TB Patient? {tb_Postive}")
+# Print formatted sentence
+print(f"The patient name is {patient_name}, he is {age} years old, his height is {height}m, his weight is {weight}kg, and Is he a TB Patient? {tb_positive}")
